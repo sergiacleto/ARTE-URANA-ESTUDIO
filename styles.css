@@ -48,12 +48,7 @@ header nav ul li a:hover {
 
 .banner h1 {
     font-size: 3em;
-    margin: 0;
-}
-
-.banner p {
-    font-size: 1.5em;
-    margin: 10px 0;
+    margin: 0 0 20px 0; /* Adiciona 20px de margem inferior */
 }
 
 .banner button {
@@ -64,6 +59,7 @@ header nav ul li a:hover {
     border-radius: 5px;
     font-size: 1.2em;
     cursor: pointer;
+    margin-top: 20px; /* Adiciona 20px de margem superior */
 }
 
 .banner button:hover {
