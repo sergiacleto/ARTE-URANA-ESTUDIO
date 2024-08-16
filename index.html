@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arte Urbana Studio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <div class="logo">
+                <img src="logo.png" alt="Arte Urbana Studio">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#missao">Nossa Missão</a></li>
+                    <li><a href="#quem-somos">Quem Somos</a></li>
+                    <li><a href="#visao">Nossa Visão</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#tattoo" onclick="mostrarCadastro()">Tattoo</a></li>
+                    <li><a href="#moda">Moda</a></li>
+                </ul>
+            </nav>
+        </aside>
+        <main class="content">
+            <header>
+                <h1>Arte Urbana Studio</h1>
+                <p class="objetivos">
+                    Nosso estúdio oferece um espaço criativo para tatuadores e artistas, promovendo a inovação e a diversidade cultural. 
+                    Aqui, você pode encontrar arte, moda e tecnologia em um só lugar.
+                </p>
+            </header>
+            <section id="cadastro" style="display: none;">
+                <h2>Cadastro de Tatuadores</h2>
+                <form id="cadastroForm">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="telefone">Telefone:</label>
+                    <input type="text" id="telefone" name="telefone" required>
+                    
+                    <label for="portfolio">Portfólio:</label>
+                    <input type="text" id="portfolio" name="portfolio" required>
+                    
+                    <button type="submit">Cadastrar</button>
+                </form>
+            </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
