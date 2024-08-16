@@ -23,5 +23,5 @@ document.getElementById('cadastroForm').addEventListener('submit', function(even
 });
 
 function mostrarCadastro() {
-    document.getElementById('cadastro').style.display = 'block';
+    document.getElementById('tattoo').style.display = 'block';
 }
